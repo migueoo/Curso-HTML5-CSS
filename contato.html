@@ -39,7 +39,7 @@
         <section>
 
           <article>
-            <h1>Formulário de Contato</h1>
+            <h1>     Formulário de Contato</h1>
             <p>Preencha os dados a baixo e envie sua mensagem de contato.</p>
 
             <fieldset>
@@ -49,10 +49,22 @@
                 <form id="frmInscricao" action="contato.php" method="POST">
 
                     <label>Nome:</label><br>
-                    <input type="text" required="required" id="txtNone" maxlength="100">
+                    <input type="text" required="required" id="txtNone" maxlength="100"><p></p>
 
                     <label>Sexo</label><br>
-                    <input type="text">
+                    <input type="radio" name="rdSexo" value="M" required="required">
+                    <label>Masculino</label>
+                    <br><br>
+
+                   
+                    <input type="radio" name="rdSexo" value="F" required="required">
+                    <label>Feminino</label>
+                    <br><br>
+
+                    <label>Estado: </label><br>
+                    <select id="cbxEstado" required="required">
+                        <option value="">-Selecione-</option>
+                    </select>
 
                 </form>                
 
