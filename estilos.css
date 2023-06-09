@@ -1,0 +1,9 @@
+.destaque {
+    background-color: rgb(155, 155, 155);
+    color: rgb(0, 0, 0);
+  }
+
+.botaoEnviar {
+    background-color: rgb(21, 175, 16);
+    color: rgb(255, 254, 254);
+}
