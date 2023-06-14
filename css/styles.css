@@ -69,7 +69,7 @@ body{
     width: 120px;
     border-radius: 50%;
 }
-.user-card .user-name{
+.user-card, .user-name{
     font-weight: bold;
     margin-bottom: 0.6rem;
 }
