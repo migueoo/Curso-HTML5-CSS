@@ -5,7 +5,7 @@
 
  /* começo do segundo curso */
  body{
-  padding-bottom: 500px;
+  padding-bottom: 4000px;
  }
 /*background*/
  .background{
@@ -144,8 +144,7 @@ p{
 #none{
   display: none;
 }
-#relative,
-#absolute {
+#relative {
   width: 50px;
   height: 50px;
   margin: 10px;
@@ -153,12 +152,47 @@ p{
 #relative{
   background-color: blueviolet;
   position: relative;
-  top: 100px;
-  left: 40px;
+  top: 50px;
+  left: 20px;
 }
 #absolute{
-  background-color: black;
+  background-color: #3655aa;
   position: absolute;
   top: 50px;
   right: 50px;
+}
+#absolute,
+#fixed {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+#fixed{
+  background-color: aqua;
+  position: fixed;
+  top: 100px;
+  left: 45px;
+}
+
+#relative-2{
+  width: 300px;
+  height: 300px;
+  border: 1px solid red;
+  position: relative;
+
+}
+#absolute-1, #absolute-2{
+  width: 50px;
+  height: 50px;
+  background-color: #3655aa;
+  position: absolute;
+}
+#absolute-1{
+  top: 10px;
+  left: 10px;
+}
+
+#absolute-2{
+  bottom: 10px;
+  right: 10px;
 }
